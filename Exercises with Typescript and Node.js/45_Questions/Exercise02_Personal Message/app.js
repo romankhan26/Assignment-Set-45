@@ -1,0 +1,9 @@
+"use strict";
+let personName = '';
+personName = prompt('What is your name?') || '';
+if (personName !== null && personName !== '') {
+    alert(`Hello ${personName}, would you like to run some python today?`);
+}
+else {
+    alert('you have to fil your name !');
+}
