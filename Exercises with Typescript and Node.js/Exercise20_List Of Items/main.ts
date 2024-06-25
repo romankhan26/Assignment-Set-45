@@ -1,4 +1,4 @@
-var items = [
+const items: string[] = [
     "Enchanté Noir",
     "Whispering Petals",
     "Midnight Spell",
@@ -8,7 +8,12 @@ var items = [
     "Mystique Amour",
 ];
 console.log("List of items:");
-for (var _i = 0, items_1 = items; _i < items_1.length; _i++) {
-    var item = items_1[_i];
+for (const item of items) {
     console.log(item);
 }
+ for (let i = 0; i < items.length; i++) {
+    // const item = items[i];
+    console.log(items[i]);
+    
+    
+ }

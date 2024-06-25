@@ -1,3 +1,4 @@
+"use strict";
 var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
         if (ar || !(i in from)) {
@@ -7,6 +8,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     }
     return to.concat(ar || Array.prototype.slice.call(from));
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 var places = ["Switzerland", "Islamabad", "Istanbul", "Madina", "Qatar"];
 console.log("Original order:", places);
 console.log("Alphabetical order:", __spreadArray([], places, true).sort());
@@ -21,3 +23,12 @@ places.sort();
 console.log("Alphabetical order:", places);
 places.sort().reverse();
 console.log("Reverse alphabetical order:", places);
+var age = 18;
+var oup = "Science";
+switch (age && oup) {
+    case 18 && "Maths":
+        console.log("You  are not eligible for science course");
+        break;
+    default:
+        break;
+}

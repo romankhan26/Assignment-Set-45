@@ -1,3 +1,5 @@
+
+
 const groceryList:  string[] = [
     "Milk", "Eggs", "Vegetables", "Cheese", "Fruits"
 ];
@@ -8,6 +10,8 @@ try {
 } catch (error) {
     console.error(`Caught an error: ${error}.`);
 }
+// console.log(groceryList[5]);
+
 
 //Correcting the error.
 console.log(groceryList[4]);
