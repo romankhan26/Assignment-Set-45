@@ -1,6 +1,4 @@
 const magicians = ["Harry Potter", "Hermione Granger", "Ron Weasley", "Albus Dumbledore"];
-const greatMagicians = makeGreat(magicians);
-showMagicians(greatMagicians);
 
 
 function makeGreat(magicianNames: string[]): string[] {
@@ -12,3 +10,5 @@ function showMagicians(magicianNames: string[]): void {
         console.log(name);
     }
 }
+const greatMagicians = makeGreat(magicians);
+showMagicians(greatMagicians);
